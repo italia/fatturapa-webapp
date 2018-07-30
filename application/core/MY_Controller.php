@@ -12,14 +12,17 @@ class MY_Controller extends CI_Controller {
         $this->data["site_js"] = $this->add_js();
     }
 
-    public function add_css(){
-        # TO DO
+    public function add_css(){        
+        $css[] = array("location" => "bootstrap-italia.min.css");
+        $css[] = array("location" => "italia-icon-font.cs");
+
+        return $css;
     }
 
     public function add_js(){
-        # TO DO
+        $js[] = array("location" => "bootstrap-italia.bundle.min.js");
+
+        return $js;
     }
-
-
 
 }
