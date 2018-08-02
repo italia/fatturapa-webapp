@@ -13,4 +13,10 @@
     {/if}
 
 </head>
-<body>
+<body id="page-top">    
+    {include file="./navbar-top.tpl"}        
+    <div id="wrapper"> <!-- OPEN DIV WRAPPER-->        
+    {include file="./navbar-left.tpl"}    
+
+    <div id="content-wrapper"> <!-- OPEN DIV CONTENT-WRAPPER-->
+            <div class="container-fluid"> <!-- OPEN DIV CONTAINER-FLUID-->
