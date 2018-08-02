@@ -14,7 +14,8 @@ class MY_Controller extends CI_Controller {
 
     public function add_css(){        
         $css[] = array("location" => "bootstrap-italia.min.css");
-        $css[] = array("location" => "italia-icon-font.cs");
+        $css[] = array("location" => "italia-icon-font.css");
+        $css[] = array("location" => "sb-admin.min.css");
 
         return $css;
     }
