@@ -1,0 +1,12 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/italia/fatturapa-webapp.git",
+  "author": "Marco Peca <marco.peca88@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-italia": "^0.10.2",
+    "coreui.io": "^1.0.0-alpha.6"
+  }
+}
