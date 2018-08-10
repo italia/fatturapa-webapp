@@ -1,3 +1,6 @@
+</main>
+</div>
+
 <!-- Sticky Footer -->
 <footer class="sticky-footer">
   <div class="container my-auto">
@@ -8,13 +11,9 @@
 </footer>
 
 
-</div> <!-- CLOSE DIV CONTAINER-FLUID-->
-</div> <!-- CLOSE DIV CONTENT-WRAPPER-->
-</div> <!-- CLOSE DIV WRAPPER-->
-
 {if isset($site_js)}
 {foreach item=js from=$site_js}
-<script src="{$base_url}themes/js/{$js.location}"></script>
+<script src="{$base_url}themes/{$js.location}"></script>
 {/foreach}
 {/if}
 
