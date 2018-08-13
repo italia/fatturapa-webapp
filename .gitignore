@@ -11,6 +11,7 @@ application/logs/*
 composer.lock
 
 /vendor/
+/node_modules/
 
 
 ## Sublime Text cache files
