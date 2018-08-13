@@ -15,3 +15,5 @@ all:
 	cp -R node_modules/simple-line-icons/fonts/* themes/fonts/.	
 	cp node_modules/bootstrap-italia/dist/font/* themes/font/.
 	cp node_modules/bootstrap-italia/dist/css/italia-icon-font.css themes/css/dist/.
+	cp -R node_modules/font-awesome/fonts/* themes/fonts/.	
+	cp  node_modules/font-awesome/css/font-awesome.min.css themes/css/.	
