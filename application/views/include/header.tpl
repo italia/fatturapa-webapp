@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>{$title|default:"FatturaPA WebApp"}</title>
+
     {if isset($site_css)}
     {foreach item=css from=$site_css}
     <link rel="stylesheet" href="{$base_url}themes/{$css.location}">
